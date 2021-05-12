@@ -797,6 +797,20 @@
                 {"bubblingMouseEvents": true, "color": "#ffa600", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ffa600", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5, "stroke": true, "weight": 3}
             ).addTo(feature_group_bcadcab3c70042c58a920bb3d047a084);
         
-
+            var layer_control_2857bcec7276411fa826993fa84f161d = {
+                base_layers : {
+                    "stamentoner" : tile_layer_0880a95f3b944d11b8e00498d3e4c394,
+                },
+                overlays :  {
+                    "2" : feature_group_7bff642708f646a4886dd1f9f7fcedf7,
+                    "2b" : feature_group_270b86090f4540ab81aed7108f48c1ec,
+                    "3" : feature_group_b2ca1da2b48e4b96b6435d171d5354f1,
+                },
+            };
+            L.control.layers(
+                layer_control_2857bcec7276411fa826993fa84f161d.base_layers,
+                layer_control_2857bcec7276411fa826993fa84f161d.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_fdd104ee2a274e7092e7f82a752c0da3);
         
 </script>
