@@ -1709,21 +1709,3 @@ input, select, textarea {
 			  max-height: 600px;
 			  }
 
-		.container {
-				display: flex;
-				align-items: right;
-				justify-content: center
-			  }
-			  
-			  img {
-				max-width: 50%
-			  }
-			  
-			  .image {
-				flex-basis: 40%
-			  }
-			  
-			  .text {
-				font-size: 20px;
-				padding-left: 20px;
-			  }
