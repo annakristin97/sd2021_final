@@ -1664,6 +1664,7 @@ input, select, textarea {
 		.column {
 			float: left;
 			width: 33.33%;
+			height: 80%;
 			padding: 5px;
   		}
   
