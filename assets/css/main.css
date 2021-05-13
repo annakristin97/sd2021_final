@@ -1712,7 +1712,7 @@ input, select, textarea {
 		.column {
 			float: left;
 			width: 33.33%;
-			padding: 25px;
+			padding: 10px;
 			height: 300px;
 		}
   
