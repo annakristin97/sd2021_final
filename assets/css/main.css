@@ -174,6 +174,16 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
+	mark.yellow {
+		color:#ffc400;
+		background: none;
+	}
+	
+	mark.blue {
+		color:#0000A0;
+		background: none;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
