@@ -1660,7 +1660,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		/* Three image containers (use 25% for four, and 50% for two, etc) */
+		/* Three image containers */
 		.column {
 			float: left;
 			width: 33.33%;
@@ -1673,3 +1673,9 @@ input, select, textarea {
 			clear: both;
 			display: table;
   		}
+
+		div.ex1 {
+			width: 500px;
+			margin: auto;
+			border: 3px solid #73AD21;
+		  }
