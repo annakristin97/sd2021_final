@@ -1678,7 +1678,7 @@ input, select, textarea {
 		center{
 			  text-align: center;
 		  }
-		  .videowrapper { 
+		  .iframewrapper { 
 				  float: none;
 				  clear: both;
 				  width: 700px;
@@ -1688,7 +1688,7 @@ input, select, textarea {
 				  height: 0;
 			  margin: 0 auto;
 			  }
-			  .videowrapper iframe {
+			  .iframewrapper iframe {
 				  position: absolute;
 				  top: 0;
 				  left: 0;
