@@ -1726,5 +1726,12 @@ input, select, textarea {
 			clear: both;
 			display: table;
   		}			  
-		
+
+
+		  .my-box {
+            display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+          }
 

@@ -34,7 +34,7 @@
 							<ul>
 								<li><a href="#Analysis">Analysis</a></li>
 								<!--<li><a href="#City">City</a></li> -->
-								<li><a href="#Datasets">Links</a></li>
+								<li><a href="#Links">Links</a></li>
 								<!--<li><a href="#Other">Other</a></li>
 								<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -57,14 +57,14 @@
 										likely to occur?”</em> will be explored and answered.  <br/>
 
 										To do so, historic data from the city of Seattle is used from the years 2004 
-										to the end of 2020. Different data visualizations are used to present the variant 
-										results that were explored and to highlight key findings. <br/>
+										through 2020. Different types of data visualizations are used to present the various 
+										perspectives that were explored and to highlight key findings. <br/>
 										
-										This analysis is designated for the healthcare system, furthermore the four 
-										main hospitals that have ER’s (Emergency Room) in Seattle. The analysis is 
-										done to explore how different circumstances and different time periods can 
-										influence the severity of an accident and how the hospitals can be better 
-										prepared when those severity levels occur.  <br/>
+										This analysis is intended for the healthcare system, furthermore the four 
+										main hospitals that have ERs (Emergency Rooms) in Seattle. The purpose of
+										the analysis is to explore how different circumstances and time periods can 
+										influence the amount and severity of accidents and how the hospitals can be better 
+										prepared when those accidents of those severity levels occur.  <br/>
 									</p>
 									<div style="text-align: center;">
 									<h2>ACCIDENTS DURING DIFFERENT TIME PERIODS</h2>
@@ -74,30 +74,30 @@
 											height="330px" width="370px" border="5px"> 
 											<br/>
 											<span align="center"><em>Figure 1</em></span></p>
-										<p> To get an better idea on when most accidents are happening, it was decided to 
+										<p> To get a better idea of when most accidents are happening, it was decided to 
 											start by looking at the different time periods over the years, it is interesting 
 											to see on <em>Figure 1</em>, that traffic accidents have been declining over the years. Where there
-											was a spike in 2015, but then it went delining again, accidents went from over 15.000 per 
+											was a spike in 2015, but then it started to decline again, accidents went from over 15.000 per 
 											year to less than 12.000. <br/> 
 		
-											One might think that traffic accidents tend to happen more in wintertime rather than summertime. 
+											One might think that traffic accidents tend to happen more frequently over the wintertime 
+											rather than the summertime. 
 											However, <em>Figure 2 </em>shows otherwise. By displaying the accident count in a 
-											heatmap, the results show that the distribution over the months of the year. 
-											The months are quite similar, but from the graph it can be seen that Sundays and 
-											February are the most "calm" months. On the otherhand Fridays and October are the "busiest" months.
-											Dark coloring of the cell indicate, a high count of occurrences and light coloring indicates
-											low counts of occurrences.
-											Traffic accident can therefore happen at any time of the 
-											year but there is a slight varience in October and February.<br/> 
+											heatmap, the results show that the distribution over the months of the year is quite even. 
+											The months are quite similar, but from the graph it can be seen that Sundays in 
+											February are the most "calm" periods. On the otherhand Fridays in October are the "busiest" periods.
+											Dark coloring of the cells indicate a high count of accidents and light coloring indicates
+											low counts of accidents.
+											Traffic accident can therefore happen at any time of the year but there is a slight varience in October and February.<br/> 
 
 											<em>Figure 3</em> shows the difference between 
 											the weeks of the year to see whether the beginning 
 											of the month varies with the end of it. However, as expected, there does not seem to be 
 											any clear pattern between weeks, only the weekdays. <br/>
 
-											So now let's look into the pattern of hours over the weekday, <em>Figure 4 </em>displays 
-											the count of accidents on different weekdays vs. the hour of the day in another heatmap. 
-											Here we can clearly see a noticeable difference. Traffic accidents seem to be more likely to 
+											So now let's look into the pattern of hours of the day, <em>Figure 4 </em>displays 
+											the count of accidents on different weekdays vs. the hour of the day. 
+											Here we can clearly see a noticeable difference. Traffic accidents seem to be much more likely to 
 											occur on business days (Monday - Friday) between 15:00 – 18:00. </p>
 									</div>
 						
@@ -115,12 +115,12 @@
 											<span align="center"><em>Figure 4</em></span>
 										</div>
 									</div>
-										<h4>So what do these result mean for hospitals?</h4>
+										<h4>So what do these results mean for hospitals?</h4>
 									<p>
-										Everyday there are many accidents happening, but only fraction of the all accident need 
-										to go to the hospital and that more likely from sever accidents. The previous results 
-										gave a good indication of the busiest time of traffic collisions. But what about the 
-										difference in severity ? Does this also apply to different cases of severity ? 
+										Many accidents happen every day, but only a fraction of them result in a trip 
+										to the hospital and it is more likely for severe accidents. The previous results 
+										gave a good indication of the busiest times of traffic collisions. But what about the 
+										difference in severity? What factors affect how severe an accident is?
 									</p>
 
 								</section>
@@ -136,28 +136,33 @@
 											height="280px" width="320px" border="5px"> 
 											<br/>
 											<span align="center"><em>Figure 5</em></span></p>									
-										<p> Now looking into the severity level of accident and what other factors may play a role
-											in the severness. First of all, <em>Figure 5</em> shows three types of road condition;
+										<p> Now looking into the severity level of accidents and what factors may play a role
+											there. First of all, <em>Figure 5</em> shows three types of road conditions;
 											Dry, Wet and Icy, this is done to get a good visual comparison 
-											on how "dangerous" each road condition is. An normalised count of road condition 
-											type accidents, is visulised and contrary to what one might probably think - it seems 
+											on how "dangerous" each road condition is. It shows how many accdents happen
+											on average each day for each road condition type. 
+											Contrary to what one might probably think - it seems 
 											that accidents are more likely to happen on dry roads than wet or icy. <br/>
+											<br/>
 
-											<em>But what other factor might have impact on the accident severness? </em>
+											<em>But what other factors might impact accident severity? </em>
 
-											Looking at the graph down below. 
-											The graph shows a normalised count of collision logs for each severity code, for five 
-											different factors that might be connected to the severness of accident. 
+											Looking at the graphs down below. 
+											Each graph shows a normalised count of collision logs by severity level for each factor
+											category. This is done for five different factors that might be connected to the severness of an accident. 
 											The severity codes are four and are represented in the following way: 
 											<li> <mark class="yellow"> <strong>1: </mark>Property Damage </strong> </li>
 											<li> <strong>2: Injury </strong>  </li> 
 											<li> <strong>2b: Serious Injury </strong> </li> 
 											<li> <strong>3: Fatality </strong> </li>  
+
+											<br/>
 											
 											Five different categories are explored based on their severity level. 
 											Each category is shown in different tab at the top of the graph, where it can be 
 											switched between in an interactive way. It also allows the feature to select and filter
-											the specific severity level. 
+											a specific severity level. 
+											
 											<br>
 										</p>
 										<center>
@@ -166,22 +171,22 @@
 											</div>
 										</center>
 										<p style="float: right; padding-left: 25px; padding-right: 35px;"><img src="DUI.png" 
-											height="280px" width="320px" border="5px"> 
+											height="280px" width="400px" border="5px"> 
 											<br/>
 											<span align="center"><em>Figure 6</em></span></p>
 
-										<p> Based on the graph, it is obvious that the type of collision, road- and light 
-											condition and whether driver was under influence (DUI), play an immense role in the 
-											severity level of the traffic accident. <br/>
+										<p> Based on the graph, it is obvious that the type of collision, hour of the day 
+											and whether the driver was under the influence (DUI), all play a role in the 
+											severity level of a traffic accident. <br/>
 											What is interesting to see is that fatalities are more likely to occur in the 
-											middle of the night and in the evening. There seems to be a connection between
-											the severity level of accident and with the DUI value, as a majority of the fatalities 
+											middle of the night and in the evening. There also seems to be a connection between
+											the severity level of accidents and the DUI value, as a majority of the fatalities 
 											occur when a person is driving under influence. Therefore looking at <em>Figure 6</em>,
 											that shows the count of DUI occurrences distributed over the hour of day, there is an obvious
-											increasment of accidents as the night progresses and that also explains the increasement
-											of severness factor during the night. <br/>
+											increase in accidents as the night progresses and that also explains the increase
+											of severeness during the night. <br/>
 											Every day, 29 people in the United States die in motor vehicle crashes that 
-											involve an alcohol-impaired driver [1]. This is one death every 50 minutes. 
+											involve an alcohol-impaired driver [1]. That is one death every 50 minutes. 
 											The annual cost of alcohol-related crashes totals more than $44 billion [2]. <br/>
 										
 											This enormous cost affects the hospitals as well since they need excess 
@@ -202,18 +207,13 @@
 										<h2>Where are the accidents happening?</h2>
 										</div>
 										<p> <strong>Which of the accidents are severe and when is hospitalisation needed? </strong> <br/>
-											To visualize where the collisions are taking place, an interactive map above shows 
-											the collisions for each severity code. Severity code 2 is coloured orange, 
-											2b is dark orange and 3 is coloured red. <br/>
-											To display the nearest Emergency Room (ER), markers have been placed in the map 
+											To visualize where the collisions are taking place, an interactive map below shows 
+											the collisions for each severity code. Severity code 2 is colored orange, 
+											2b is dark orange and 3 is red. <br/>
+											To display the nearest Emergency Room (ER), markers have been placed on the map 
 											to indicate the location. The map also allows the features to select the type of 
-											severity to be displayed on the map itself. 
-
-											In the interactive map, collisions logs are colored by their severity,
-											where severity code 2 is colored orange, 2b is dark orange and 3 is colored red.
-											Markers has been placed on the map where the next Emergency Room (ER) is located.
-											The interactive map, allows the features to select the type of severity to be displayed
-											on the map itself.
+											severity to be displayed on the map itself. The interactive map, allows the user 
+											to select the type of severity to be displayed on the map itself.
 											<br>
 											The ERs seem to be well distributed around the city so no injury hotspot is very far 
 											away. The main hotspots for fatalities occur on the big roads or highways which can 
@@ -236,17 +236,17 @@
 											<h2>Want to explore machine Learning?</h2>
 										</div>
 											<p> Here a Decision Tree with a Random Forest (RF) machine learning algorithm 
-												will help to make an educated guess on whether an injury will result in 
-												an ER case. Research show that RF is good to implement on traffic accident 
-												data and has outperformed the other methods [3]. <br/> 
+												will help make an educated guess on whether an accident injury will result in 
+												an ER case. Research shows that a RF is appropriate for traffic accident 
+												data and has outperformed other methods [3]. <br/> 
 
 												Figure 7 shows how a Decision Tree for the analysis of Seattle traffic 
-												collision analysis is displayed. This algorithm has a ~70 % accuracy 
-												performance and can predict the traffic accident severity on whether it 
-												is an ER case or not. <br/>
+												collision analysis is set up. This algorithm has ~70% accuracy 
+												performance which means that it predicts whether an accident injury results 
+												in an ER case or not correctly 7 out of 10 times. <br/>
 												
 												To help interpret the tree, the numerical value for each Collision Type 
-												column is presented in the list down below.  <br/>
+												column is presented in the table down below.  <br/>
 
 												<table>
 													<tr>
@@ -278,7 +278,7 @@
 												  </table>
 
 												The categories “Weekday”, “Hour”, “Month” are presented in a numerical way, 
-												meaning that for 0 is Monday, 1 is Tuesday and so on. 0 in months is 
+												meaning that 0 is Monday, 1 is Tuesday and so on. 0 in months is 
 												therefore January and 0 in hours is 00:00 o’clock. <br/>
 
 												Now let’s test it out. 
@@ -300,8 +300,8 @@
 											</p>
 										
 									<center>
-										<div class="iframewrapper">
-											<img width="900" height="550" src="decisionTree.png" alt="Decison Tree" align=middle>
+										<div class="my-box">
+											<img width="1200" height="500" src="decisionTree.png" alt="Decison Tree" align="center">
 											<span align="center"><em>Figure 7</em></span>
 										</div>
 									</center>
@@ -310,28 +310,30 @@
 											<h2> Summary of the results</h2>
 										</div>
 											<p>
-												Summarising all the results and mainly answering the questions <em>Under 
+												Summarising the results and mainly answering the questions <em>Under 
 												what circumstances are accidents more likely to occur and what 
 												factors may impact the severeness?</em> <br/>
 
-												Well, first of all, there was an obvious pattern of traffic accidents
-												 occurrence during the hour of the day and what weekday it is. The 
-												 most frequent time for an accident occurring is on business days when 
+												Well, first of all, there was an obvious pattern of traffic accident
+												 occurrence based on hour of the day and what weekday it is. The 
+												 most frequent time for accidents is on business days when 
 												 people are likely driving home from work and that is between 14:00 - 18:00. 
-												 Sundays were "calm", where there are least of accidents happening and over 
+												 Sundays were "calm", where there are the least number of accidents happening and over 
 												 the years accidents have been decreasing. <br/>
 
-												There was though clear pattern between severeness of accident, time 
-												of day and if a driver was under influence. How can these results 
-												become of use for the healthcare system though? Well by looking at 
-												the "busiest" time of accidents, they are able to predict the incoming 
+												There was a clear connection between the severeness of accidents and numerous factors. Time 
+												of day and whether a driver was under the influence showed the most
+												correlation. How can these results 
+												become of use for the healthcare system though? Well, by looking at 
+												the "busiest" times of accidents, they are able to predict the incoming 
 												workload based on the weekday and hour of the day. The decision tree 
-												could come of a good use to use other relevant factors, such as the 
-												road- and light condition, the predicted severity level, and common accident
-												 places. People are unpredictable, many key factors play a role in predicting 
-												 accidents, but the major ones can be used. Historic data shows obvious 
-												 patterns and gives a good indication of influential factors of the 
-												 severity level and reasoning. <br/>
+												could come of good use in order to predict how many accidents are incoming
+												based on the conditions that day and also to know whether an accident is likely
+												to come into the ER as soon as it happens. 
+												People are unpredictable and many smaller factors play a role in predicting 
+												 accidents, but the major ones can still be used for rough planning. 
+												 Historical data shows obvious patterns and gives a good indication of 
+												 influential factors of the severity level and reasoning. <br/>
 
 												
 											</p>
@@ -361,7 +363,7 @@
 
 
 						<!-- Datasets -->
-							<article id="Datasets">
+							<article id="Links">
 								<div style="text-align: center;">
 									<h2 class="major">Links to Notebook & Datasets</h2>
 								</div>
