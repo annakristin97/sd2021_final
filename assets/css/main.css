@@ -1709,3 +1709,19 @@ input, select, textarea {
 			  max-height: 600px;
 			  }
 
+		/* Three image containers */
+		.column2 {
+			float: left;
+			width: 33.33%;
+			padding: 10px;
+			min-height: 250px;
+  		}
+  
+  		/* Clear floats after image containers */
+  		.row2::after {
+			content: "";
+			clear: both;
+			display: table;
+  		}			  
+		
+
