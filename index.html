@@ -234,15 +234,40 @@
 										<div style="text-align: center;">
 											<h2>Want to explore machine Learning?</h2>
 										</div>
-											<p> Now that different time periods and locations have been identified, the 
-												next step is to answer the question on whether the ER’s can be better 
-												prepared when those severe cases occur.  <br/>
+											<p> Here a Decision Tree with a Random Forest (RF) machine learning algorithm 
+												will help to make an educated guess on whether an injury will result in 
+												an ER case. Research show that RF is good to implement on traffic accident 
+												data and has outperformed the other methods. <br/> 
 
-												Here a Decision Tree with a Random Forest machine learning algorithm will 
-												help to make an educated guess on whether an injury will result in an ER 
-												case. <em>Figure 6</em> shows how a Decision Tree for the analysis of Seattle traffic 
-												collision analysis is displayed. This algorithm has a ~70 % accuracy performance 
-												and can predict the traffic accident severity on whether it is an ER case or not.  
+												Figure 7 shows how a Decision Tree for the analysis of Seattle traffic 
+												collision analysis is displayed. This algorithm has a ~70 % accuracy 
+												performance and can predict the traffic accident severity on whether it 
+												is an ER case or not. <br/>
+												
+												To help interpret the tree, the numerical value for each Collision Type 
+												column is presented in the list down below.  <br/>
+
+												Tafla Her <br/>
+
+												The categories “Weekday”, “Hour”, “Month” are presented in a numerical way, 
+												meaning that for 0 is Monday, 1 is Tuesday and so on. 0 in months is 
+												therefore January and 0 in hours is 00:00 o’clock. <br/>
+
+												Now let’s test it out. 
+												<li>Say we have an accident that includes Cycles </li>
+
+												<li>Since Cycles are equal to 1, we travel from the first branch down 
+													to the left one. </li>
+
+												<li>Then down to the right to the second branch and then to the left 
+													to the third branch.</li>
+
+												<li>Now we are located on the “HOUR” category where we need to state 
+													what time of day the accident is happening, let’s say it is during the day.  </li>
+
+												<li>We finally travel down to the last leaf of the tree where we get our 
+													odds for the ER. As seen on the pie chart, it is pretty likely that this 
+													cycle accident collision will end up at the ER. </li>	
 											
 											</p>
 										
