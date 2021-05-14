@@ -1712,7 +1712,7 @@ input, select, textarea {
 		/* Three image containers */
 		.column2 {
 			float: left;
-			width: 33.33%;
+			width: 25.00%;
 			padding: 10px;
 			min-height: 250px;
   		}
